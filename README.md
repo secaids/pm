@@ -1,4 +1,4 @@
-
+### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">Exp - 1 - 01-ALP-FOR-8086</a>  
 ## <a href="https://github.com/ShafeeqAhamedS/EXPERIMENT--01-ALP-FOR-8086.git">Exp - 1 - 01-ALP-FOR-8086</a>
 ### sum - 8 bit
 ```
@@ -55,10 +55,8 @@ int main()
          delay_ms(1000);
     }
 }
-![image](https://user-images.githubusercontent.com/118756330/205136711-cdb7f626-1339-4694-a8d2-9b3478161eeb.png)
-
-
 ```
+![image](https://user-images.githubusercontent.com/118756330/205136711-cdb7f626-1339-4694-a8d2-9b3478161eeb.png)
 ## <a href="https://github.com/NITHISHKUMAR-P/Experiment--03-Half-Subtractor-and-Full-subtractor.git" target="_blank">Exp--03-Interfacing-a-Digital-INPUT-push-button</a>
 ```
 #include <LPC214x.h>   // define LPC2148 Header file
