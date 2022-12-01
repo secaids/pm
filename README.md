@@ -1,12 +1,12 @@
-### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">Exp - 1 - 01-ALP-FOR-8086</a>
-## <a href="https://github.com/secaids/pm#exp-02-interfacing-a-digital-output-led">Exp-02-Interfacing-a-Digital-output-LED</a>
-## <a href="https://github.com/secaids/pm#exp--03-interfacing-a-digital-input-push-button">Exp--03-Interfacing-a-Digital-INPUT-push-button</a>
-## <a href="https://github.com/secaids/pm#exp-4-interfacing-a-16x2-type-lcd-display">Exp-4-Interfacing a 16X2 type LCD display</a>
-## <a href="https://github.com/secaids/pm#exp-05-interfacing-a-4x4-keypad">Exp 05-Interfacing a 4X4 keypad</a>
-## <a href="https://github.com/secaids/pm#exp-6-converting-analog-to-digital-signals">Exp-6-converting analog to digital signals</a>
-## <a href="https://github.com/secaids/pm#ex-07-interfacing-lm35-temperature-sensor">Ex 07-Interfacing LM35 Temperature sensor</a>
-## <a href="https://github.com/secaids/pm#exp-08-interfacing-seven-segment-display">Exp 08-Interfacing seven segment display</a>
-## <a href="https://github.com/secaids/pm#exp-09-configuring-uart-for-seral-data-transmission">Exp 09-Configuring UART for seral data transmission</a>
+### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">01-ALP-FOR-8086</a>
+### <a href="https://github.com/secaids/pm#exp-02-interfacing-a-digital-output-led">02-Interfacing-a-Digital-output-LED</a>
+### <a href="https://github.com/secaids/pm#exp--03-interfacing-a-digital-input-push-button">03-Interfacing-a-Digital-INPUT-push-button</a>
+### <a href="https://github.com/secaids/pm/#exp-4-interfacing-a-16x2-type-lcd-display">04-Interfacing a 16X2 type LCD display</a>
+### <a href="https://github.com/secaids/pm#exp-05-interfacing-a-4x4-keypad">05-Interfacing a 4X4 keypad</a>
+### <a href="https://github.com/secaids/pm#exp-6-converting-analog-to-digital-signals">06-converting analog to digital signals</a>
+### <a href="https://github.com/secaids/pm#ex-07-interfacing-lm35-temperature-sensor">07-Interfacing LM35 Temperature sensor</a>
+### <a href="https://github.com/secaids/pm#exp-08-interfacing-seven-segment-display">08-Interfacing seven segment display</a>
+### <a href="https://github.com/secaids/pm#exp-09-configuring-uart-for-seral-data-transmission">09-Configuring UART for seral data transmission</a>
 
 ## <a href="https://github.com/ShafeeqAhamedS/EXPERIMENT--01-ALP-FOR-8086.git">Exp - 1 - 01-ALP-FOR-8086</a>
 ### sum - 8 bit
