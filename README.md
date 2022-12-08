@@ -1,4 +1,4 @@
-### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">01-ALP-FOR-8086</a>
+### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">01 -ALP-FOR-8086</a>
 ### <a href="https://github.com/secaids/pm#exp-02-interfacing-a-digital-output-led">02-Interfacing-a-Digital-output-LED</a>
 ### <a href="https://github.com/secaids/pm#exp--03-interfacing-a-digital-input-push-button">03-Interfacing-a-Digital-INPUT-push-button</a>
 ### <a href="https://github.com/secaids/pm/#exp-4-interfacing-a-16x2-type-lcd-display">04-Interfacing a 16X2 type LCD display</a>
@@ -473,35 +473,35 @@ unsigned int adc(int no,int ch)
 ![image](https://user-images.githubusercontent.com/118756330/205139339-97106071-80e1-43d9-97d0-e90cb41d162b.png)
 ## <a href="https://github.com/ShafeeqAhamedS/Interfacing-Seven-segment-display-with-lpc2148">Exp 08-Interfacing seven segment display</a>
 ```
-#include <LPC214x.h>
-unsigned char dig[]={0x88,0xeb,0x4c,0x49,0x2b,0x19,0x18,0xcb,0x8,0x9,0xa,0x38,0x9c,0x68};
-	void delay(unsigned int count)
-	{
-		int j=0,i=0;
-		for(j=0;j<count;j++)
-		{
-			for(i=0;i<120;i++);
-		}
-	}
-	int main(void)
-	{
-		unsigned char count=0;
-		unsigned int i=0;
-		IO0DIR|=(1<<11);//Set Digit control lines as Outputs
-		IO0SET=(1<<11);
-		IO0DIR|=0x007F8000;
-		while(1)
-		{
-			count++;
-			if(count==16)count=0;
-			for(i=0;i<800;i++)//change to inc/dec speed of count
-			{
-				IO0CLR=0x007F8000;
-				IO0SET=(dig[count]<<15);
-				delay(200);
-			}
-		}
-	}
+#include <lpc214x.h>            //Header file for LPC214x Series microcontrollers
+
+void delay(int );              //Function declaration for delay
+int i;                         //Variable declared as integer
+unsigned int a[]={0xc0,0xf9,0xa4,0xb0,0x192,0x1b1,0x1f1,0x13,0x1f3,0x1b3}; //integer array with numbers for display
+int main()
+{ 
+    IO0DIR=0xffffffff;              //Sets direction as output for PORT 0 pins
+    while(1)
+    {
+        for(i=0;i<=9;i++)
+        {
+            IO0SET=a[i];           //sets corresponding pins HIG
+            delay(9000);                  //Calls delay function
+            IO0CLR=a[i];           //Sets corresponding pins LOW
+        }
+    }
+    return 0;
+
+}
+
+
+void delay(int k)
+{
+
+    int i,j;
+    for(i=0;i<k;i++)
+    for(j=0;j<=1000;j++);
+}
 ```
 ![image](https://user-images.githubusercontent.com/118756330/205139636-4c05cb17-4211-4fad-bb0d-88bcb258b992.png)
 ## <a href="https://github.com/shafeeqahameds/Experiment--09-Configuring-UART-in-LPC2148-for-serial-data-transmission-">Exp 09-Configuring UART for seral data transmission</a>
