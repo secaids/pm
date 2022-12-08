@@ -1,4 +1,4 @@
-### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">01 -ALP-FOR-8086</a>
+### <a href="https://github.com/secaids/pm#exp---1---01-alp-for-8086-1">01-ALP-8086</a>
 ### <a href="https://github.com/secaids/pm#exp-02-interfacing-a-digital-output-led">02-Interfacing-a-Digital-output-LED</a>
 ### <a href="https://github.com/secaids/pm#exp--03-interfacing-a-digital-input-push-button">03-Interfacing-a-Digital-INPUT-push-button</a>
 ### <a href="https://github.com/secaids/pm/#exp-4-interfacing-a-16x2-type-lcd-display">04-Interfacing a 16X2 type LCD display</a>
